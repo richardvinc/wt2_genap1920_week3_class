@@ -1,0 +1,10 @@
+<div class="second">
+  <h2>This is second component</h2>
+  <p>The value of message is {{ message }}</p>
+  <button (click)="changeMessage()">change message</button>
+
+  <div *ngIf="employee">
+    <h3>Employee Detail</h3>
+    <p>{{ employee.name }}</p>
+  </div>
+</div>

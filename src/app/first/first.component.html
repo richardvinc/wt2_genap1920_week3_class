@@ -1,0 +1,9 @@
+<div class="first">
+  <h2>This is first component</h2>
+  <p>The value of message is: {{ message }}</p>
+
+  <h3>List of Employees</h3>
+  <p *ngFor="let employee of employees" (click)="selectEmployee(employee)">
+    {{ employee.name }}
+  </p>
+</div>
